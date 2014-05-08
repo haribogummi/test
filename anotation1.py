@@ -20,7 +20,7 @@ def position():
 def search():
 	dic1=position()
 	c=0
-	print "Posoition,Nuc,n_p,Start,End,Type"
+	print "Position,Nuc,n_p,Start,End,Type"
 	for k,v in dic1.iteritems():
 		f=open("gfftest.gff","r")
 		lines = f.readlines()
